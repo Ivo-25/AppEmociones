@@ -20,4 +20,7 @@ public class Frase extends AppCompatActivity {
         Intent anterior = new Intent(this, MainActivity.class);
         startActivity(anterior);
     }
+    public void Siguiente (View view) {
+        Intent siguiente = new 
+    }
 }
