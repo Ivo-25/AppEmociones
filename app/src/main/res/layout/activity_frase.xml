@@ -29,8 +29,8 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:background="@android:color/holo_purple"
-        android:onClick="Anterior"
-        android:text="@string/BotonAtrás"
+        android:onClick="Siguiente"
+        android:text="@string/BotonSiguiente"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -49,12 +49,13 @@
 
     <EditText
         android:id="@+id/editText4"
-        android:layout_width="255dp"
-        android:layout_height="331dp"
+        android:layout_width="295dp"
+        android:layout_height="408dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Frase inicial"
+        android:text="No hay separación de mente y emociones, pensamientos y aprendizaje están relacionados."
         android:textColorHint="@android:color/background_light"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="152dp" />
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="108dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
