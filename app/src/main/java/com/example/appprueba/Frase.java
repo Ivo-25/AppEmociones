@@ -21,6 +21,7 @@ public class Frase extends AppCompatActivity {
         startActivity(anterior);
     }
     public void Siguiente (View view) {
-        Intent siguiente = new Intent()
+        Intent siguiente = new Intent(this,Desicion.class);
+        startActivity(siguiente);
     }
 }

@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".Desicion"></activity>
+        <activity android:name=".emociones"></activity>
+        <activity android:name=".calendario" />
+        <activity android:name=".Desicion" />
         <activity android:name=".Frase" />
         <activity android:name=".MainActivity">
             <intent-filter>
